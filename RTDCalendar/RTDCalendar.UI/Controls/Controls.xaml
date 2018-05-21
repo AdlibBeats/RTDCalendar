@@ -1,0 +1,10 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="RTDToggleButton.xaml"/>
+        <ResourceDictionary Source="RTDCalendarView.xaml"/>
+        <ResourceDictionary Source="RTDCalendarContainer.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+</ResourceDictionary>

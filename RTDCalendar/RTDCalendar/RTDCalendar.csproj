@@ -131,6 +131,12 @@
       <Version>6.1.4</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RTDCalendar.UI\RTDCalendar.UI.csproj">
+      <Project>{810053ec-faa2-4247-842c-e3bf823378ab}</Project>
+      <Name>RTDCalendar.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

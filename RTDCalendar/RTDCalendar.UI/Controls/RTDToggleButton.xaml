@@ -5,22 +5,22 @@
 
 	<Style TargetType="controls:RTDToggleButton">
 		<!--Unchecked Properties-->
-		<Setter Property="Background" Value="{StaticResource Grey3}"/>
-		<Setter Property="Foreground" Value="{StaticResource White1}"/>
+		<Setter Property="Background" Value="Gray"/>
+		<Setter Property="Foreground" Value="White"/>
 		<Setter Property="BorderBrush" Value="{x:Null}"/>
 		<Setter Property="BorderThickness" Value="0"/>
 		<Setter Property="Content" Value="{x:Null}"/>
 		<Setter Property="ContentTemplate" Value="{x:Null}"/>
 		<!--Checked Properties-->
-		<Setter Property="OnCheckedBackground" Value="{StaticResource Red2}"/>
-		<Setter Property="OnCheckedForeground" Value="{StaticResource White1}"/>
+		<Setter Property="OnCheckedBackground" Value="Red"/>
+		<Setter Property="OnCheckedForeground" Value="White"/>
 		<Setter Property="OnCheckedBorderBrush" Value="{x:Null}"/>
 		<Setter Property="OnCheckedBorderThickness" Value="0"/>
 		<Setter Property="OnCheckedContent" Value="{x:Null}"/>
 		<Setter Property="OnCheckedTemplate" Value="{x:Null}"/>
 		<!--Disabled Properties-->
-		<Setter Property="OnDisabledBackground" Value="{StaticResource Red2}"/>
-		<Setter Property="OnDisabledForeground" Value="{StaticResource White1}"/>
+		<Setter Property="OnDisabledBackground" Value="Red"/>
+		<Setter Property="OnDisabledForeground" Value="White"/>
 		<Setter Property="OnDisabledBorderBrush" Value="{x:Null}"/>
 		<Setter Property="OnDisabledBorderThickness" Value="0"/>
 		<Setter Property="OnDisabledContent" Value="{x:Null}"/>
@@ -31,7 +31,7 @@
 		<Setter Property="VerticalAlignment" Value="Center"/>
 		<Setter Property="HorizontalContentAlignment" Value="Center"/>
 		<Setter Property="VerticalContentAlignment" Value="Center"/>
-		<Setter Property="FontFamily" Value="{StaticResource MvideoFontBold}"/>
+		<Setter Property="FontFamily" Value="Segoe UI"/>
 		<Setter Property="FontWeight" Value="Bold"/>
 		<Setter Property="FontSize" Value="18"/>
 		<Setter Property="UseSystemFocusVisuals" Value="True"/>
